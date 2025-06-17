@@ -17,7 +17,7 @@ jobs:
   Backend:
     needs: [Helloworld] 
     runs-on: ubuntu-latest
-    defautls:
+    defaults:
       run:
         working-directory: backend
 
