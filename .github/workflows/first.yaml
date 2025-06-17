@@ -75,7 +75,7 @@ jobs:
   Frontend:
     needs: [Backend]
     runs-on: ubuntu-latest
-    defautls:
+    defaults:
       run:
         working-directory: frontend
 
